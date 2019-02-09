@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+body{
+    margin:0;
+    padding:0 ;
+    padding-bottom: 250px;
+    display: block
+ }
+.cover{
+ width:100%;
+ height:450px;
+ background-image: url(https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-0.3.5%E2%80%A6gb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=e301c9d%E2%80%A6);
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+    
+.cover .heading {
+    font-size: 6em;
+    font-family: 'bree serif', serif; 
+    color: white;
+    position: relative;
+    top: 40%;
+
+}
+.heading {
+    color: rgb(34, 50, 95);
+    font-size: 4em;
+    font-family: 'Bree Serif', serif;
+    margin: 30px 0 40px 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+    
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+.bg-light-gray{
+ background:#eee
+}
+.color-dark-gray {
+    color: #222
+ }
+.square {
+        padding: 45px;
+        width: 49%;
+        display: inline-block;
+        height: 350px;
+        box-sizing: border-box;
+        overflow: hidden;
+         z-index: 1;
+        transition: all .3s;
+        }
+.square:hover {
+         /* box-shadow: 0 0 10px rgba(0, 0, 0, .5); */
+         outline: 6px solid rgb(0, 0, 0);
+         transition: all .3s;
+         outline-offset: -6px;
+                    }
+.article-title {
+        font-size: 2em;
+        font-family: 'Bree Serif', serif;
+        margin: 0 0 20px 0;
+        }
+.article-body {
+        font-size: 1em;
+        font-family: 'Ropa Sans', sans-serif;
+        text-align: justify;
+      }
+.container {
+        width: 80%;
+        margin: auto;
+        margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto
+          }
+.bg-dark-gray{
+    background-color: #333
+}
+.color-light-gray{
+    color:#eee
+} 
